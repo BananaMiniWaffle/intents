@@ -2,4 +2,7 @@ language: zh-hk
 intents:
   HassClimateGetTemperature:
     data:
-      - sentences: []
+      - sentences:
+          - "<area> 有幾多 <temp>"
+          - "<area> 有幾 (熱 | 暖 | 凍)"
+          - "<area> 係唔係 (熱 | 暖 | 凍)"
